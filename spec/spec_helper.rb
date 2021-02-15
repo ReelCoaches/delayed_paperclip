@@ -12,7 +12,7 @@ rescue LoadError
   # Pry is not available, just ignore.
 end
 
-require 'paperclip/railtie'
+require 'kt-paperclip/railtie'
 Paperclip::Railtie.insert
 
 require 'delayed_paperclip/railtie'
